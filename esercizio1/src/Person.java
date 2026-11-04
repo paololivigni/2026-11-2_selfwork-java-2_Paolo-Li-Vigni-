@@ -12,7 +12,5 @@ abstract class Person {
     }
 
     // Metodo
-    public void info(){
-        System.out.println("Salve, sono " + this.name + " " + this.surname);
-    }
+    public abstract void infoPerson();
 }

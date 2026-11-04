@@ -12,7 +12,8 @@ public class Doctor extends Person{
     }
 
     // Seppur omissibile, ricorro all'uso del this.
-    public void info(){
+    @Override 
+    public void infoPerson(){
         System.out.println("Salve, sono il medico " + this.name + " " + this.surname + " e opero nel reparto " + this.ward + ".");
     }
 

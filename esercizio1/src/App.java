@@ -8,11 +8,11 @@ public class App {
 
         // Oggetto Dottore
         Doctor d1 = new Doctor("Alfeo", "Sassaroli", "chirurgia generale");
-        d1.info();
+        d1.infoPerson();
 
         // Oggetto Paziente
         Patient p1 = new Patient("Sor Savino", "Capogreco", "defecatio isterica");
-        p1.info();
+        p1.infoPerson();
 
     }
 }

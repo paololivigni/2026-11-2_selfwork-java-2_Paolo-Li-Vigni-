@@ -10,7 +10,8 @@ public class Patient extends Person{
     }
 
     // Seppur omissibile, ricorro all'uso del this.
-    public void info(){
-        System.out.println("Salve, sono " + this.name + " " + this.surname + " e mi è stato diagnosticato " + this.pathology + ".");
+    @Override 
+    public void infoPerson(){
+        System.out.println("Sono il paziente " + this.name + " " + this.surname + " e sono ricoverato per " + this.pathology + ".");
     }
 }
