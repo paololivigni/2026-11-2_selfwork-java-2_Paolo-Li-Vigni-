@@ -1,7 +1,6 @@
 public class App {
-
     public static void main(String[] args) throws Exception {
-        
+
         // Creazione oggetti
         Person p1 = new Person("Mario", "Rossi", 35);
         Person p2 = new Person("Mario", "Rossi", 35);
@@ -18,6 +17,6 @@ public class App {
 
         // Metodo .equals: caso 2 - metodo .equals() sovrascrittura (override)
         System.out.println(p1.equals(p2)); // true - il metodo .equals sovrascritto soddisfa la condizione
-
+        
     }
 }
