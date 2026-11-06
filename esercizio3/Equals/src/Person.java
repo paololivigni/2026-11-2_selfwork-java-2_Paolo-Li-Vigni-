@@ -1,7 +1,6 @@
 public class Person {
 
-    
-    public String name;
+        public String name;
     public String surname;
     public int age;
 
@@ -11,6 +10,7 @@ public class Person {
         this.surname = surname;
         this.age = age;
 
+        
     }
 
     @Override
@@ -32,4 +32,5 @@ public class Person {
 
         return false; // metodo ritorna di default "false"
     }
+    
 }
